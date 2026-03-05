@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thrisha Cheruku | Data Analyst Portfolio</title>
+  <meta name="description" content="Thrisha Cheruku - Data Analyst Portfolio | Python, SQL, Excel, Power BI, Tableau" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- NAV -->
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="#home" aria-label="Home">
+        <span class="dot"></span>
+        <span>Thrisha Cheruku</span>
+      </a>
+
+      <nav class="menu" id="menu">
+        <a href="#projects" class="navlink">Projects</a>
+        <a href="#skills" class="navlink">Skills</a>
+        <a href="#experience" class="navlink">Experience</a>
+        <a href="#certifications" class="navlink">Certifications</a>
+        <a href="#contact" class="navlink nav-btn">Contact</a>
+      </nav>
+
+      <button class="icon-btn burger" id="burger" aria-label="Open menu" aria-expanded="false">
+        ☰
+      </button>
+    </div>
+  </header>
+
+  <main id="home">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-left">
+          <p class="pill">Data Analyst • Business Analyst • Hyderabad</p>
+          <h1>Turning data into clear insights & dashboards.</h1>
+          <p class="sub">
+            Detail-oriented Computer Science graduate and aspiring Data Analyst skilled in
+            Python, SQL, Excel, and Data Visualization, with experience in data analysis and
+            dashboard creation. Seeking an entry-level role to generate insights and support
+            data-driven business decisions.
+          </p>
+
+          <div class="cta">
+            <a class="btn" href="#projects">View Projects</a>
+            <a class="btn ghost" href="#contact">Hire / Contact</a>
+            <a class="link" href="mailto:cherukuthrisha@gmail.com?subject=Portfolio%20Inquiry%20-%20Thrisha%20Cheruku">Email Me</a>
+          </div>
+
+          <div class="quick">
+            <div class="qcard">
+              <div class="qtop">Email</div>
+              <div class="qval">cherukuthrisha@gmail.com</div>
+            </div>
+            <div class="qcard">
+              <div class="qtop">Phone</div>
+              <div class="qval">+91 7893410274</div>
+            </div>
+            <div class="qcard">
+              <div class="qtop">Primary Tools</div>
+              <div class="qval">Excel • SQL • Python • Power BI</div>
+            </div>
+          </div>
+        </div>
+
+        <aside class="hero-right">
+          <div class="card">
+            <h3>Links</h3>
+            <div class="linklist">
+              <a href="https://www.linkedin.com/in/thrisha-cheruku-2a6242268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noreferrer">LinkedIn</a>
+              <a href="https://github.com/account" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+            <p class="hint">
+              Replace GitHub link if needed (example: https://github.com/your-username)
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Portfolio Highlights</h3>
+            <ul class="bullets">
+              <li>Interactive dashboards & KPI tracking</li>
+              <li>EDA + trend analysis for decision support</li>
+              <li>Data cleaning & preprocessing for accuracy</li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-head">
+          <h2>Projects</h2>
+          <p>Search, filter, and open project details (interactive).</p>
+        </div>
+
+        <div class="toolbar">
+          <div class="searchbox">
+            <input id="projectSearch" type="text" placeholder="Search projects (e.g., Netflix, Python, Dashboard)..." />
+          </div>
+
+          <div class="filters" role="group" aria-label="Project Filters">
+            <button class="chip active" data-filter="all">All</button>
+            <button class="chip" data-filter="python">Python</button>
+            <button class="chip" data-filter="excel">Excel</button>
+            <button class="chip" data-filter="streamlit">Streamlit</button>
+            <button class="chip" data-filter="ml">ML</button>
+          </div>
+        </div>
+
+        <div class="grid" id="projectGrid">
+          <!-- Project 1 -->
+          <article class="pcard" data-tags="python" data-title="mini voting system python">
+            <div class="pcard-top">
+              <h3>Mini Voting System</h3>
+              <span class="tag">Python</span>
+            </div>
+            <p class="muted">
+              Developed a Mini Voting System using Python to automate vote collection and result calculation.
+            </p>
+            <div class="pcard-actions">
+              <button class="btn small" data-open="p1">View Details</button>
+              <a class="alink" href="https://github.com/account" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="pcard" data-tags="excel" data-title="netflix content analysis excel pivot charts">
+            <div class="pcard-top">
+              <h3>Blinkit sales Dashboard </h3>
+              <span class="tag">Excel</span>
+            </div>
+            <p class="muted">
+              Analyzed Blinkit sales Dashboard using Excel (Pivot Tables, Charts) to analyse business performance, sales trends ,and outlet insights using data visualisation 
+            </p>
+            <div class="pcard-actions">
+              <button class="btn small" data-open="p2">View Details</button>
+              <span class="small-muted">Add report link later</span>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="pcard" data-tags="python streamlit ml" data-title="healthcare liver risk dashboard python ml streamlit">
+            <div class="pcard-top">
+              <h3>Healthcare Liver Risk Dashboard</h3>
+              <span class="tag">Python • ML • Streamlit</span>
+            </div>
+            <p class="muted">
+              Built a Machine Learning–based healthcare dashboard using Python and Streamlit to analyze patient data and monitor liver disease risk.
+            </p>
+            <div class="pcard-actions">
+              <button class="btn small" data-open="p3">View Details</button>
+              <a class="alink" href="https://github.com/account" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-head">
+          <h2>Skills</h2>
+          <p>Core skills and tools used in analytics & reporting.</p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="card">
+            <h3>Tools</h3>
+            <div class="chips">
+              <span>Excel</span>
+              <span>Google Sheets</span>
+              <span>SQL</span>
+              <span>Python</span>
+              <span>Power BI</span>
+              <span>Tableau</span>
+              <span>Looker</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Analytics</h3>
+            <div class="chips">
+              <span>EDA</span>
+              <span>Data Cleaning</span>
+              <span>Data Preprocessing</span>
+              <span>Trend Analysis</span>
+              <span>Reporting</span>
+              <span>Dashboards</span>
+              <span>Data Visualization</span>
+              <span>Statistics</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Strengths</h3>
+            <div class="chips">
+              <span>Attention to Detail</span>
+              <span>Problem Solving</span>
+              <span>Communication</span>
+              <span>Insight Generation</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-head">
+          <h2>Experience</h2>
+          <p>Internship experience (4 months, full-time).</p>
+        </div>
+
+        <div class="card timeline">
+          <div class="trow">
+            <div class="tleft">
+              <h3>Data Analyst Intern</h3>
+              <p class="muted">Analytics Career Connects • 4 Months (Full-time)</p>
+            </div>
+            <div class="tright">
+              <span class="pill small">Excel • SQL • Python • Power BI</span>
+            </div>
+          </div>
+
+          <ul class="bullets">
+            <li>Analyzed and cleaned datasets using Excel, SQL, and Python to identify patterns and support data-driven decision making.</li>
+            <li>Built interactive dashboards and visualizations using Excel/Power BI to track key metrics and present insights effectively.</li>
+            <li>Performed data preprocessing, trend analysis, and reporting to improve data accuracy and generate actionable insights.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section class="section" id="certifications">
+      <div class="container">
+        <div class="section-head">
+          <h2>Certifications</h2>
+          <p>Learning and upskilling certificates.</p>
+        </div>
+
+        <div class="grid2">
+          <div class="card">
+            <h3>Python Introduction</h3>
+            <p class="muted">Infosys Springboard</p>
+          </div>
+          <div class="card">
+            <h3>SQL</h3>
+            <p class="muted">Simplilearn</p>
+          </div>
+          <div class="card">
+            <h3>Excel</h3>
+            <p class="muted">Simplilearn</p>
+          </div>
+          <div class="card">
+            <h3>Introduction to Data Analyst</h3>
+            <p class="muted">Simplilearn</p>
+          </div>
+          <div class="card">
+            <h3>Power BI</h3>
+            <p class="muted">Springboard</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-head">
+          <h2>Contact</h2>
+          <p>Send a message (works without backend using your email).</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="card">
+            <h3>Reach me</h3>
+            <p class="muted"><b>Email:</b> cherukuthrisha@gmail.com</p>
+            <p class="muted"><b>Phone:</b> +91 7893410274</p>
+            <p class="muted"><b>Location:</b> Hyderabad</p>
+
+            <div class="linklist mt">
+              <a href="https://www.linkedin.com/in/thrisha-cheruku-2a6242268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noreferrer">LinkedIn</a>
+              <a href="https://github.com/account" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Message</h3>
+            <form id="contactForm">
+              <label>
+                Your Name
+                <input required name="name" type="text" placeholder="Enter your name" />
+              </label>
+              <label>
+                Your Email
+                <input required name="email" type="email" placeholder="Enter your email" />
+              </label>
+              <label>
+                Message
+                <textarea required name="message" rows="5" placeholder="Write your message..."></textarea>
+              </label>
+
+              <button class="btn" type="submit">Send Message</button>
+              <p class="hint">This opens your Mail app (mailto). No server needed.</p>
+            </form>
+          </div>
+        </div>
+
+        <footer class="footer">
+          <p>© <span id="year"></span> Thrisha Cheruku • Data Analyst Portfolio</p>
+        </footer>
+      </div>
+    </section>
+  </main>
+
+  <!-- MODAL -->
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modal-backdrop" data-close="1"></div>
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <div class="modal-head">
+        <h3 id="modalTitle">Project</h3>
+        <button class="icon-btn" id="modalClose" aria-label="Close">✕</button>
+      </div>
+      <div class="modal-body" id="modalBody"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
